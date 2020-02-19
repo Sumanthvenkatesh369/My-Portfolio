@@ -1,0 +1,1994 @@
+header, nav, footer{
+    display: block;
+}
+
+body{
+    margin: 0;
+    padding: 0; 
+}
+
+/*-------Navigation----------*/
+
+header{
+    width: 100%;
+    height: 100%;
+    margin: 0px auto;
+    
+}
+
+.logo{
+    float: left;
+    /* margin: 40px auto; */
+    padding: 10px;
+    color: black;
+    /* font-size: 30px; */
+    font-family: 'Comfortaa', cursive;
+    font-weight: 900;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+p{
+    margin: 0;
+    font-size: 12px;
+    padding: 0px 5px 5px 5px;
+    font-family: "Poppins", Arial, sans-serif;
+    font-weight: 100;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+nav{
+    max-width: 1000px;
+    margin: 0px auto;
+    padding: 0;
+    overflow: hidden;
+
+}
+
+nav ul{
+    padding: 0;
+    float: right;
+    /* margin-top: 50px; */
+    margin: 10px;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 5px;
+    margin: 10px;
+    font-weight: 900;
+    font-family: "Poppins", Arial, sans-serif;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+
+nav ul li.trigram{
+    display: none;
+}
+
+nav ul li a:hover{
+    color: #ffbd39;
+
+}
+
+/*---------Over the Image-----------*/
+
+
+.container-home{
+    width: 100%;
+    height: 600px;
+    position: relative;
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(Home-photo.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.banner{
+    width: 1000px;
+    margin: auto;
+    padding-top: 10%;
+}
+
+.Description{
+    font-weight: 600;
+    font-size: 30px;
+    letter-spacing: 3px;
+    color: #fff;
+    font-family: "Poppins", Arial, sans-serif;
+}
+
+.Web{
+    font-size: 72px;
+    font-weight: bolder;
+    color: #fff;
+    font-family: 'Comfortaa', cursive;
+    letter-spacing: 2px;
+}
+
+.Working{
+    font-size: 20px;
+    color: white;
+    font-weight: 300;
+    font-family: "Poppins", Arial, sans-serif;
+    line-height: 30px;
+    max-width: 620px;
+}
+
+
+.Document{
+    padding: 0; 
+    margin: 10px;
+}
+
+.Resume{
+    background-color: transparent;
+    border: 2px solid #fff!important;
+    color: #fff;
+    box-sizing: border-box;
+    display: inline-block;
+    font-family: Kievit,serif;
+    font-size: 18px!important;
+    font-style: normal;
+    font-weight: 100;
+    letter-spacing: 2px;
+    line-height: 1em;
+    margin: 10px 0;
+    padding: 1em 1.75em;
+    transition: all .5s ease-in;
+}
+.Resume:hover{
+    background-color: #fff;
+    color: black;
+    
+}
+
+/*---------Brief--------------*/
+
+.container-brief{
+    width: 100%;
+    height: auto;
+    margin: 0px auto;
+}
+
+.Brief-intro{
+    max-width: 780px;
+    margin: auto;
+    text-align: center;
+}
+
+.home-page-heading{
+    font-size: 36px;
+    font-family: "Poppins", Arial, sans-serif;
+    margin: 0px;
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+
+.home-page-description{
+    font-size: 24px;
+}
+
+/*------Glance-------*/
+
+.container-glance{
+    width: 100%;
+    height: 300px;
+    margin: 0px auto;
+    text-align: center;
+}
+
+.glance-details{
+    width: 90%;
+    margin: auto;
+    padding: 0;
+    max-width: 1300px;
+}
+.glance-heading{
+    font-size: 36px;
+    font-family: "Poppins", Arial, sans-serif;
+    margin: 0px;
+    padding-top: 50px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+.glance-image{
+    float: left;
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+.gallary-img{
+    width: 11.67%;
+    float: left;
+    margin: 5px; 
+}
+
+
+/*-------Skills---------*/
+
+
+.Skills{
+    width: 100%;
+    height: 350px;
+    margin: 0px auto;
+}
+
+.home-skills-list{
+    text-align: center;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.title-name{
+    font-size: 36px;
+    font-family: "Poppins", Arial, sans-serif;
+    margin: 0px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+.home-ul{
+    padding: 0px;
+    list-style: none;
+}
+
+.home-para{
+    float: left;
+}
+
+.home-li{
+    padding: 40px;
+    margin: 20px;
+    font-size: 45px;
+    border-radius: 55%;
+    background-color: black;
+    color: white;
+    width: 51px;
+    height: 57px;
+    box-shadow: 0px 0px 0px 7px rgba(240,235,240,1);
+    font-weight: 700;
+    font-family: "Poppins", Arial, sans-serif;
+}
+
+.home-span{
+    font-family: 'Comfortaa', cursive;
+    font-size: 16px;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+
+/*------Follow-page--------*/
+
+
+.container-follow{
+    width: 100%;
+    height: 300px;
+    margin: 0px auto;
+    background-color: #222;
+    
+}
+
+.follow-section{
+    max-width: 1300px;
+    margin: auto;
+    padding-top: 80px;
+}
+
+.facebook{
+    float: left;
+    width: 33.33%;
+}
+
+.linkdin{
+    float: left;
+    width: 33.33%;
+}
+
+.hire{
+    float: left;
+    width: 33.33%;
+}
+
+.follow{
+    font-size: 24px;
+    font-weight: 800;
+    font-family: 'Comfortaa', cursive;
+    color: #fff;
+    text-align: center;
+}
+
+.follow-description{
+    margin: 10px 12px;
+    font-size: 16px;
+    color: #fff;
+    font-family: 'Comfortaa', cursive;
+    text-align: center;
+}
+
+.follow-description-special{
+    margin: 10px 12px;
+    font-size: 16px;
+    color: #fff;
+    font-family: 'Comfortaa', cursive;
+    text-align: center;
+    padding-bottom: 13px;
+}
+
+.follow-links{
+    text-align: center;
+    color: #fff;
+    font-family: 'Comfortaa', cursive;
+    border: 2px solid!immportant;
+    padding: 10px;
+    background-color: #444;
+    width: 75px;
+    margin-left: 35%;
+    transition: all .4s ease-in;
+}
+
+.fab{
+    margin: 10px;
+    font-size: 16px;
+}
+
+.span-follow{
+    font-size: 14px;
+}
+
+.follow-drop{
+    margin: 10px;
+}
+
+.span-drop{
+    margin: 10px;
+    font-size: 14px;
+}
+
+.follow-links:hover{
+    background-color: #333;
+    transition: 1s;
+}
+
+/*------Footer--------*/
+
+.home-contact{
+    width: 100%;
+    height: auto;
+    background-color: black;
+    text-align: center;
+    float: left;
+    clear: both;
+}
+
+.home-ul-list{
+    list-style: none;
+    display: inline-flex;
+    padding: 0px;
+    margin: 30px;
+}
+
+.contact-list{
+    padding: 10px;
+    color:  rgba(255,255,255,.7);
+    font-size: 12px;
+     text-transform: uppercase;
+    font-family: 'Comfortaa', cursive;
+}
+
+.contact-list:hover{
+    color: white;
+    transition: 2s;
+}
+
+.copyrights{
+    color: rgba(255,255,255,.4);
+    font-size: 10px;
+    padding: 0px;
+    font-family: 'Comfortaa', cursive;
+    padding-bottom: 30px;
+}
+
+.icon-block{
+    padding: 10px;
+    text-align: center;
+}
+.contact-icons{
+    color: white;
+    text-align: center;
+    padding: 5px;
+}
+
+.Intro{
+    font-weight: 800;
+    font-size: 16px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #ffbd39;
+    font-family: "Poppins", Arial, sans-serif;
+}
+
+
+
+.container{
+    margin: 0px;
+    height: 600px;
+    width: 100%;
+    background-color: #f8f9fa!important;
+}
+
+.max-container{
+    width: 1000px;
+    margin: auto;
+}
+
+.photo{
+    width: 40%;
+    text-align: center;
+    padding-top: 30px;
+    float: left;
+}
+
+.croped{
+    box-shadow: 0px 1px 0px 8px rgba(207,207,207,1);
+    width: 350px;
+}
+
+
+.About{
+    float: left;
+    width: 50%;
+    margin-left: 55px;
+}
+
+.Me{
+    color: black;
+    font-size: 50px;
+    font-family: "Poppins", Arial, sans-serif;
+    margin: 0px 0px 0px 10%;
+    font-weight: 900;
+    padding-top: 16px;  
+}
+
+.Text{
+    margin: 10px auto;
+    font-size: 25px;
+    font-family: 'Lato', sans-serif;
+    margin-left: 10%;
+    font-weight: 100;
+}
+
+.Brief{
+    margin: 0px auto;
+    margin-left: 10%;
+    font-family: 'Lato', sans-serif;
+    padding: 0px;
+    line-height: 28px;
+    font-size: 16px;
+    margin-top: 10px;
+    color: #444;
+    font-weight: 300;
+}
+
+.Details{
+    list-style: none;
+    line-height: 3;
+    margin: 10px 0px 0px 10%;
+    padding: 0;
+}
+
+li{
+    color: #696969;
+}
+.list{
+    display: flex;
+    float: left;
+    width: 130px;
+    font-family: "Poppins", Arial, sans-serif;
+    font-size: 16px;
+}
+
+.list-details{
+    color: #999999;
+    font-family: "Poppins", Arial, sans-serif;
+    font-weight: 600;
+}
+
+.social{
+    margin: 0px;
+    padding-left: 5%;
+}
+.social-list{
+    display: inline-block;
+    padding: 0px;
+    margin: 7px 10px 5px 10px;
+}
+
+.social-list i{
+    border: 1px solid;
+    color: black;
+    box-sizing: border-box;
+    padding: 0;
+    border-radius: 70px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+}
+
+
+
+.ownphotos{
+    width: 100%;
+    height: 450px;
+    clear: both;
+    text-align: center;
+    
+}
+
+.ownimages{
+    float: left;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.ownimage{
+    width: 16.6666%;
+    float: left;
+    margin: 0;
+}
+
+.educaiton{
+    width: 100%;
+    height: auto;
+    background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)),url(education1.jpg);
+    background-size: cover;
+    background-position: right;
+    padding-bottom: 20px;
+    
+}
+
+.education-details{
+    width: 1000px;
+    margin: auto;
+    padding-top: 2%;
+}
+
+.education-details h3{
+    font-size: 30px;
+    margin: 0px;
+    font-family: "Poppins", Arial, sans-serif;
+}
+
+.udemy-course h4{
+    margin: 0px;
+    font-size: 25px;
+    font-family: "Poppins", Arial, sans-serif;
+}
+
+.udemy-course h5{
+    margin: 0px;
+    padding-top: 10px;
+    font-size: 20px;
+    font-family: "Poppins", Arial, sans-serif;
+}
+
+.udemy-course p{
+    margin-top: 10px;
+    padding: 0px;
+    font-size: 18px;
+    width: 55%;
+}
+
+.Photos{
+    width: 100%;
+    height: 3000px;
+    margin: 0px auto;
+}
+
+.Photo-gallery{
+    max-width: 1200px;
+    margin: auto;  
+}
+figure{
+    float: left;
+    border-radius: 3px;
+    overflow: hidden;
+    width: 43%;
+    min-height: 150px;
+    
+}
+
+.photo-class{
+    width: 100%;
+    border-right: 3px;
+    transition: all 1s ease;
+}
+
+
+.photo-class:hover{
+    transform: scale(1.1);
+}
+
+.container-photos{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.travel{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.travel-photos{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 900;
+    font-family: "Poppins", Arial, sans-serif;
+    margin: 0px;
+    padding: 30px 50px;
+}
+
+.travel-guide{
+    text-align: center;
+    margin: 30px;
+}
+
+.Border{
+    border-radius: 7px;
+    max-width: 750px;
+}
+.container-hobbies{
+    width: 100%;
+    height: auto;
+    margin: 0px auto;
+}
+
+.container-hobbies{
+    width: 100%;
+    height: 300px;
+    margin: 0px auto;
+}
+
+
+.sports-max{
+    max-width: 1152px;
+    margin: auto;
+}
+
+.Football{
+    width: 384px;
+    float: left;
+    text-align: center; 
+    
+}
+
+.Football img{
+    margin: 10px;
+}
+
+.Football h2{
+    margin: 0px;
+    font-size: 15px;
+}
+
+
+
+.container-portfolio{
+    width: 100%;
+    height: 300px;
+    margin: 0 auto;
+}
+
+.profile{
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(portfolio.fcf8c0cc.jpg);
+    height: 300px;
+    background-position: center;
+    background-size: cover;
+    background-origin: border-box;
+}
+
+.Portfolio-heading{
+    text-align: center;
+    color: white;
+    padding-top: 80px;
+}
+
+.Portfolio-details{
+    font-size: 50px;
+    font-family: "Poppins", Arial, sans-serif;
+    margin: 0px;
+}
+
+.portfolio-para{
+    font-size: 18px;
+    font-family: "Poppins", Arial, sans-serif;
+}
+
+.portfolio-main{
+    width: 100%;
+    height: 500px;
+    margin: 0px auto;
+    clear: both;
+    padding-bottom: 30px;
+}
+
+.Portfolio-photo{
+    position: relative;
+    -webkit-transition: all 1s ease;
+    transition: all 1s ease;
+    min-height: 400px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.figure{
+    border-radius: 3px;
+    overflow: hidden;
+    max-height: 400px;
+    position: absolute;
+    left: 350px;
+    margin-top: 60px;
+}
+
+.portfolio-image{
+    width: 500px;
+}
+
+.figure img{
+    border-radius: 5px;
+    transition: all .9s ease;
+}
+
+.figure img:hover{
+    transform: scale(1.5);
+  
+}
+
+.portfolio-description{
+    position: absolute;
+    width: 33.33%;
+    top: 100%;
+    left: 34%;
+    text-align: center;
+}
+
+.project-name{
+    font-size: 26px;
+    font-family: "Poppins", Arial, sans-serif;
+    margin: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+
+.project-built{
+    font-size: 18px;
+}
+
+.Portfolio{
+    color: black;
+    text-align: center;
+    font-size: 25px;
+}
+
+.background-experiance{
+    width: 100%;
+    height: 400px;
+      background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(PicsArt_01-12-09.30.24.jpg);
+    background-size: cover;
+    background-position: top;
+}
+
+.experiance-heading{
+    color: white;
+    text-align: center;
+    padding-top: 110px;
+}
+
+.experiance-heading h2{
+    margin-bottom: 20px;
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-style: italic;
+    font-family: 'Cormorant Garamond', serif;
+}
+
+.experiance-heading h1{
+    margin: 15px;
+    font-size: 100px;
+    font-family: "Poppins", Arial, sans-serif;
+    letter-spacing: 10px;
+}
+
+.container-experiance{
+    width: 100%;
+    height: 500px;
+    margin: 0px auto;
+    background-color: #f5f5f2;
+}
+
+.Experiance{
+    max-width: 1000px;
+    margin: auto;
+}
+
+.Exp-heading{
+    padding-top: 50px;
+    margin-left: 66px;
+    font-family: "Poppins", Arial, sans-serif;
+}
+
+.Gensuite{
+    width: 43%;
+    float: left;
+    margin: 10px;
+    
+}
+
+.Gensuite span{
+    font-size: 20px;
+    font-family: "Poppins", Arial, sans-serif;
+    margin-left: 64px;
+}
+
+.About-Gensuite{
+    width: 54%;
+    float: left;
+    line-height: 30px;
+    margin-top: 10px;   
+}
+
+.Role{
+    font-size: 25px;
+    font-weight: bolder;
+    font-family: "Poppins", Arial, sans-serif; 
+    padding: 0px;
+    margin-bottom: 15px;
+}
+
+.time{
+    font-size: 16px;
+    font-family: "Poppins", Arial, sans-serif;
+    font-style: italic;
+    padding: 0px;
+    margin-bottom: 15px;
+}
+
+.company-description{
+    font-size: 18px;
+    font-family: "Poppins", Arial, sans-serif;
+    padding: 0px;
+}
+
+.contact-banner{
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(IMG_3037.JPG);
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.contact-heading{
+    text-align: center;
+    padding-top: 110px;
+}
+
+.contact-heading h2{
+    color: white;
+    margin: 0px;
+    font-size: 60px;
+    font-family: "Poppins", Arial, sans-serif;
+}
+
+.contact-heading h4{
+    margin: 0px;
+    color: white;
+    font-family: "Poppins", Arial, sans-serif;
+}
+
+.container-contact{
+    width: 100%;
+    height: auto;
+    margin: 0px auto;
+}
+
+.contact-details{
+    width: 1200px;
+    height: 500px;
+    margin: auto;
+}
+
+.contact-find{
+    width: 60%;
+    padding-top: 90px;
+    float: left;
+}
+
+.contact-find h1{
+    margin: 0px;
+    font-size: 30px;
+    font-family: "Poppins", Arial, sans-serif;
+    margin-left: 20px;
+}
+
+.contact-find h4{
+    margin: 0px;
+    font-size: 40px;
+    font-family: "Poppins", Arial, sans-serif;
+    margin-left: 20px;
+}
+
+.contact-find h4 a{
+    color: red;
+}
+
+.contact-find h5{
+    font-size: 18px;
+    font-weight: 100;
+    margin: 10px;
+    font-family: "Poppins", Arial, sans-serif;
+    margin-left: 20px;
+}
+
+.fonts{
+    font-size: 25px;
+    margin-bottom: 30px;
+    margin-left: 10px;
+}
+
+.fonts fab fa-linkedin{
+    font-size: 30px;
+}
+
+.contact-find span{
+    margin-left: 10px;
+    padding: 15px;
+    border: 2px solid!important;
+    letter-spacing: 3px;
+    font-family: "Poppins", Arial, sans-serif;
+    font-size: 14px;
+    transition: all .7s ease-in;
+    margin-left: 20px;
+}
+
+
+.contact-find span:hover{
+    transition: all .9s ease;
+    color: white;
+    background-color: black;
+}
+
+.contact-photo{
+    width: 40%;
+    float: left;
+    padding-top: 22px;
+}
+
+.contact-photo img{
+    height: 450px;
+    border-radius: 2%;
+    float: right;
+    margin-right: 65px;
+}
+
+.container-touch{
+    width: 100%;
+    height: 300px;
+    margin: 0px auto;
+    background-color: #f0f0f0;
+}
+
+.touch-class{
+    text-align: center;
+    padding-top: 70px;
+}
+
+.touch-class h2{
+    font-size: 40px;
+    font-family: "Poppins", Arial, sans-serif;
+    margin: 0px;
+}
+
+.touch-class p{
+    font-size: 20px;
+    margin-bottom: 35px;
+    font-family: "Poppins", Arial, sans-serif;
+    max-width: 560px;
+    margin: auto;
+    padding-bottom: 30px;
+}
+
+.touch-class span{
+    border: 2px solid!important;
+    padding: 15px 35px 15px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-family: "Poppins", Arial, sans-serif;
+    font-size: 14px;
+    transition: all .7s ease-in;
+}
+
+.touch-class span:hover{
+    transition: all .9s ease;
+    color: white;
+    background-color: black;
+}
+
+/*#########Column#############*/
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+
+.h1{
+    color: wheat;
+}
+/*---------Mobile Responsive-------------*/
+
+/*
+@media screen and (max-width: 320px){
+     body{
+        width: 100%;
+        margin: 0px auto;
+    }
+    
+    nav{
+        width: 100%;
+        margin: 0px auto;
+    }
+    ul.un-list li{
+        display: none;
+        float: none;
+    }
+    
+    ul.un-list li.trigram{
+        display: block;
+    }
+    
+    ul.un-list.responsive{
+        position: relative;
+    }
+    
+    ul.un-list.responsive li{
+        display: inline;
+        float: none;
+    }
+    
+    ul.un-list.responsive li a{
+        display: block;
+        text-align: center;
+    }
+    
+    .container-home{
+        width: 100%;
+        height: auto;
+        clear: both;
+        float: left;
+    }
+    
+    .banner{
+        width: 100%;
+        padding-top: 25%;
+    }
+    .container-home p.Description{
+        padding-left: 15px;
+        font-size: 16px;
+        text-align: left;
+        color: #fff;
+    }
+    
+    .container-home p.Web{
+        padding-left: 15px;
+        font-size: 34px;
+        text-align: left;
+        color: #fff;
+    }
+    
+    .container-home p.Working{
+        font-size: 16px;
+        color: #fff;
+        font-weight: 300;
+        font-family: "Poppins", Arial, sans-serif;
+        line-height: 30px;
+        max-width: 620px;
+        padding-left: 15px;
+    }
+    
+    .container-home p.Document{
+        padding-left: 15px;
+        text-align: left;
+        font-size: 16px;
+    }
+    
+    .container-home .Resume{
+        font-size: 16px;
+    }
+    
+    .container-brief{
+        width: 100%;
+        height: auto;
+        clear: both;
+        float: left;
+    }
+    
+    .home-page-heading{
+        font-size: 30px;
+    }
+    
+    .home-page-description{
+        font-size: 16px;
+        text-align: justify;
+    }
+    
+    .container-glance{
+        width: 100%;
+        height: auto;
+        clear: both;
+        float: left;
+    }
+    .glance-details {
+        width: 100%;
+    }
+    .glance-heading{
+        font-size: 30px;
+    }
+    
+    .glance-image{
+        width: 100%;
+    }
+    
+    .gallary-img{
+        width: 46.8%;   
+    }
+    
+    .Skills{
+        width: 100%;
+        height: auto;
+        clear: both;
+        float: left;
+        padding-bottom: 20px;
+    }
+    
+    .home-ul{
+        width: 100%;
+        
+    }
+    
+    .home-para{
+        width: 46%;
+    }
+    
+    .container-touch{
+        width: 100%;
+        height: auto;
+        clear: both;
+        float: left;
+        padding: 20px 0px;
+        
+    }
+    
+    .touch-class{
+        padding: 10px;
+    }
+    
+    .touch-class h2{
+        font-size: 30px;
+    }
+    
+    .touch-class p{
+        font-size:  20px;
+    }
+    
+    .container-follow{
+       width: 100%;
+        height: auto;
+        clear: both;
+        float: left;
+    }
+    
+    .follow-section{
+        padding-top: 40px
+    }
+    
+    .facebook{
+        width: 100%;
+        height: auto;
+        padding-bottom: 15px;
+    }
+    
+    .linkdin{
+        width: 100%;
+        height: auto;
+        padding-bottom: 15px;
+    }
+    
+    .hire{
+        width: 100%;
+        height: auto;
+        padding-bottom: 15px;
+    }
+    
+    .follow-links{
+        margin-left: 30%;
+    }
+    .container{
+        width: 100%;
+        float: left;
+        clear: both;
+        height: auto;
+        padding-bottom: 20px;
+    }
+    
+    .max-container{
+        width: 100%;
+    }
+    
+    .croped{
+        width: 280px;
+        box-shadow: 0px 0px 0px 4px rgba(209,207,209,1);
+    }
+    .photo{
+        width: 100%;
+    }
+    
+    .About{
+        width: 100%;
+        margin: 0px;
+    }
+    
+    .Me{
+        margin: 0px;
+        padding: 0px;
+        text-align: center;
+        font-size: 40px;
+    }
+    
+    .Text{
+        margin: 0px;
+        padding: 0px;
+        text-align: center;
+    }
+    
+    .Brief{
+        margin: 0px;
+        text-align: justify;
+        padding: 10px;
+    }
+    
+    .Details{
+        display: none;
+       margin: 0px;
+        padding: 10px; 
+    }
+    
+    .Details li{
+        width: 100%;
+    }
+    
+    .list{
+        width: 31%;
+        padding-left: 100px; 
+    }
+    
+    .social-icons{
+        text-align: center;
+    }
+    
+    .ownphotos{
+        width: 100%;
+        height: auto;
+        clear: both;
+        float: left;
+    }
+    
+    .ownimage{
+        width: 50%;
+    }
+    
+    .educaiton{
+        float: left;
+        width: 100%;
+        background: none;
+        height: auto;
+        background-color: #f0f0f0;
+        clear: both;
+        padding-bottom: 0px;
+    }
+    
+    .education-details{
+        width: 100%;
+    }
+    
+    .education-details h3{
+        text-align: center;
+    }
+    
+    .udemy-course{
+        padding: 10px;
+    }
+    .udemy-course h4{
+        text-align: left;
+        font-size: 18px;
+    }
+    
+    .udemy-course h5{
+        text-align: left;
+        font-size: 18px;
+    }
+    
+    .udemy-course p{
+        text-align: left;
+        font-size: 18px;
+        width: 100%
+    }
+    
+    .container-portfolio{
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+        clear: both;
+    }
+    
+    .Portfolio-details{
+        font-size: 34px;
+    }
+    
+    .portfolio-para{
+        font-size: 14px;
+    }
+    
+    .portfolio-main{
+        width: 100%;
+        height: 250px;
+        clear: both;
+        float: left;
+        padding-bottom: 100px;
+    }
+    
+    .Portfolio-photo{
+        width: 280px;
+        text-align: center;
+        margin-top: 0px;
+        transform: scale(1.1);
+    }
+    .figure{
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+    }
+    
+    .portfolio-image{
+        width: 280px;
+    }
+    
+    .portfolio-description{
+        width: 100%;
+        position: absolute;
+        left: 0;
+        margin-bottom: 0px;
+        float: left;
+        clear: both;
+        top: 60%;
+    }
+    
+    .project-name{
+        font-size: 20px;
+    }
+    
+    .background-experiance{
+        width: 100%;    
+    }
+    
+    .experiance-heading{
+        padding-top: 160px;
+    }
+    
+    .experiance-heading h2{
+        font-size: 14px;
+    }
+    
+    .experiance-heading h1{
+        font-size: 34px;
+        text-align: -webkit-center;
+    }
+    
+    .container-experiance{
+       width: 100%;
+        height: auto;
+        clear: both;
+        float: left;
+    }
+    
+    .Experiance{
+        text-align: left;
+    }
+    
+    .Exp-heading{
+        padding-bottom: 10px;
+        margin: 0px;
+        padding-left: 15px;
+    }
+    
+    .Gensuite{
+        text-align: left;
+        width: 23%;
+    }
+    
+    .Gensuite span{
+        margin: 0px;
+        font-size: 15px;
+    }
+    
+    .About-Gensuite{
+        width: 69%;
+        margin: 0px;
+    }
+    
+    .Role{
+        font-size: 15px;
+        margin: 7px;
+    }
+    
+    .time{
+        font-size: 16px;
+        margin: 7px;
+    }
+    
+    .company-description{
+        font-size: 16px;
+        margin: 7px;
+    }
+    
+    .contact-banner{
+        width: 100%;
+    }
+    
+    .contact-heading h2{
+        font-size: 34px;
+        padding-top: 50px;
+    }
+    
+    .contact-heading h4{
+        font-size: 14px;
+    }
+    
+    .container-contact{
+        width: 100%;
+        height: auto;
+        clear: both;
+        float: left;
+        padding-bottom: 40px;
+    }
+    
+    .contact-details{
+        width: 100%;
+        height: auto;
+    }
+    
+    .contact-find{
+        width: 100%;
+        padding-top: 20px;
+    }
+    
+    .contact-find h1{
+        margin: 0px;
+        padding-left: 15px;
+        font-size: 24px;
+    }
+    
+    .contact-find h4{
+        margin: 0px;
+        font-size: 20px;
+        padding-left: 15px;
+    }
+    .contact-find h5{
+        font-size: 13px;
+    }
+    
+    .fonts{
+        margin: 0px;
+        padding-bottom: 25px;
+        padding-left: 15px;
+    }
+    
+    .contact-photo{
+        display: none;
+    }
+    
+    .home-contact{
+        width: 100%;
+        height: auto;
+        clear: both;
+        float: left;
+    }
+    
+    .home-ul-list{
+        display: block;
+    }
+}
+
+*/
+
+@media all and (max-width: 480px){
+    
+    body{
+        width: 100%;
+        margin: 0px auto;
+    }
+    
+    nav{
+        width: 100%;
+        margin: 0px auto;
+    }
+    
+    ul.un-list li{
+        display: none;
+        float: none;
+    }
+    
+    ul.un-list li.trigram{
+        display: block;
+    }
+    
+    ul.un-list.responsive{
+        position: relative;
+    }
+    
+    ul.un-list.responsive li{
+        display: inline;
+        float: none;
+    }
+    
+    ul.un-list.responsive li a{
+        display: block;
+        text-align: center;
+    }
+    
+    .container-home{
+        width: 100%;
+        height: auto;
+        clear: both;
+        float: left;
+    }
+    
+    .banner{
+        width: 100%;
+        padding-top: 25%;
+    }
+    .container-home p.Description{
+        padding-left: 15px;
+        font-size: 14px;
+        text-align: left;
+    }
+    
+    .container-home p.Web{
+        padding-left: 15px;
+        font-size: 34px;
+        text-align: left;
+    }
+    
+    .container-home p.Working{
+        padding-left: 15px;
+        font-size: 18px;
+        text-align: initial;
+    }
+    
+    .container-home p.Document{
+        padding-left: 15px;
+        text-align: left;
+    }
+    
+    .Resume{
+        font-size: 18px;
+    }
+    .container-brief{
+        width: 100%;
+        height: auto;
+        clear: both;
+        float: left;
+    }
+    
+    .home-page-heading{
+        font-size: 30px;
+    }
+    
+    .home-page-description{
+        font-size: 20px;
+        text-align: center;
+    }
+    
+    .container-glance{
+        width: 100%;
+        height: auto;
+        clear: both;
+        float: left;
+    }
+    .glance-details {
+        width: 100%;
+    }
+    .glance-heading{
+        font-size: 30px;
+    }
+    
+    .glance-image{
+        width: 100%;
+    }
+    
+    .gallary-img{
+        width: 46.8%;   
+    }
+    
+    .Skills{
+        width: 100%;
+        height: auto;
+        clear: both;
+        float: left;
+        padding-bottom: 30px;
+    }
+    
+    
+    
+    .home-ul{
+        width: 100%;
+        
+    }
+    
+    .home-para{
+        width: 46%;
+    }
+    
+    .home-span{
+        margin-left: 25px;
+    }
+    
+    .container-touch{
+        width: 100%;
+        height: auto;
+        clear: both;
+        float: left;
+        padding: 20px 0px;
+        
+    }
+    
+    .touch-class{
+        padding: 10px;
+    }
+    
+    .touch-class h2{
+        font-size: 30px;
+    }
+    
+    .touch-class p{
+        font-size:  20px;
+    }
+    
+    .container-follow{
+       width: 100%;
+        height: auto;
+        clear: both;
+        float: left;
+    }
+    
+    .follow-section{
+        padding-top: 40px
+    }
+    
+    .facebook{
+        width: 100%;
+        height: auto;
+        padding-bottom: 14px;
+    }
+    
+    .linkdin{
+        width: 100%;
+        height: auto;
+        padding-bottom: 14px;
+    }
+    
+    .hire{
+        width: 100%;
+        height: auto;
+        padding-bottom: 14px;
+    }
+    
+    .container{
+        width: 100%;
+        float: left;
+        clear: both;
+        height: auto;
+    }
+    
+    .max-container{
+        width: 100%;
+    }
+    
+    .photo{
+        width: 100%;
+    }
+    
+    .About{
+        width: 100%;
+        margin: 0px;
+    }
+    
+    .Me{
+        margin: 0px;
+        padding: 0px;
+        text-align: center;
+    }
+    
+    .Text{
+        margin: 0px;
+        padding: 0px;
+        text-align: center;
+    }
+    .croped{    
+        box-shadow: 0px 1px 0px 8px rgba(207,207,207,1);
+        width: 270px;
+    }
+    .Brief{
+        margin: 0px;
+        text-align: center;
+        padding-top: 10px;
+    }
+    
+    .Details{
+        display: none;
+       margin: 0px;
+        padding: 10px; 
+    }
+    
+    .Details li{
+        width: 100%;
+    }
+    
+    .list{
+        width: 31%;
+        padding-left: 100px; 
+    }
+    
+    .social-icons{
+        text-align: center;
+    }
+    
+    .ownphotos{
+        width: 100%;
+        height: auto;
+        clear: both;
+        float: left;
+    }
+    
+    .ownimage{
+        width: 50%;
+    }
+    
+    .educaiton{
+        float: left;
+        width: 100%;
+        background: none;
+        height: auto;
+        background-color: #f0f0f0;
+        clear: both;
+    }
+    
+    .education-details{
+        width: 100%;
+    }
+    
+    .education-details h3{
+        text-align: center;
+    }
+    
+    .udemy-course{
+        padding: 10px;
+    }
+    .udemy-course h4{
+        text-align: left;
+        font-size: 18px;
+    }
+    
+    .udemy-course h5{
+        text-align: left;
+        font-size: 18px;
+    }
+    
+    .udemy-course p{
+        text-align: left;
+        font-size: 18px;
+        width: 100%
+    }
+    
+    .container-portfolio{
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+        clear: both;
+    }
+    
+    .Portfolio-details{
+        font-size: 34px;
+    }
+    
+    .portfolio-para{
+        font-size: 14px;
+    }
+    
+    .portfolio-main{
+        width: 100%;
+        height: 250px;
+        clear: both;
+        float: left;
+        padding-bottom: 100px;
+    }
+    
+    .Portfolio-photo{
+        width: 280px;
+        text-align: center;
+        margin-top: 0px;
+        transform: scale(1.1);
+    }
+    .figure{
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+    }
+    
+    .portfolio-image{
+        width: 250px;
+    }
+    
+    .portfolio-description{
+        width: 100%;
+        position: absolute;
+        left: 0;
+        margin-bottom: 0px;
+        float: left;
+        clear: both;
+        top: 60%;
+    }
+    
+    .project-name{
+        font-size: 20px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+    .background-experiance{
+        width: 100%;    
+    }
+    
+    .experiance-heading h2{
+        font-size: 14px;
+        padding-top: 40px;
+    }
+    
+    .experiance-heading h1{
+        font-size: 36px;
+    }
+    
+    .container-experiance{
+       width: 100%;
+        height: auto;
+        clear: both;
+        float: left;
+    }
+    
+    .Experiance{
+        text-align: left;
+    }
+    
+    .Exp-heading{
+        padding-bottom: 10px;
+        margin: 0px;
+        padding-left: 15px;
+    }
+    
+    .Gensuite{
+        text-align: left;
+        width: 24%;
+    }
+    
+    .Gensuite span{
+        margin: 0px;
+        font-size: 15px;
+    }
+    
+    .About-Gensuite{
+        width: 69%;
+        margin-top: 7px;
+    }
+    
+    .Role{
+        font-size: 16px;
+        margin-bottom: 0px;
+    }
+    
+    .time{
+        font-size: 16px;
+        margin-bottom: 0px;
+    }
+    
+    .company-description{
+        font-size: 16px;
+    }
+    
+    .container-contact{
+        width: 100%;
+        height: 350px;
+        padding-bottom: 20px;
+        clear: both;
+        float: left;
+    }
+    
+    .contact-details{
+        width: 100%;
+    }
+    
+    .contact-find{
+        width: 100%;
+        padding-top: 20px;
+    }
+    
+    .contact-find h1{
+        margin: 0px;
+        padding-left: 15px;
+    }
+    
+    .contact-find h4{
+        margin: 0px;
+        font-size: 24px;
+        padding-left: 15px;
+    }
+    
+    .fonts{
+        margin: 0px;
+        padding-bottom: 25px;
+        padding-left: 15px;
+    }
+    
+    .contact-photo{
+        display: none;
+    }
+    
+    .contact-find h5{
+        font-size: 13px;
+    }
+    
+    .home-contact{
+        width: 100%;
+        height: auto;
+        clear: both;
+        float: left;
+    }
+    
+    .home-ul-list{
+        display: block;
+    }
+    
+}
+    
+
+
